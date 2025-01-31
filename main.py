@@ -2,8 +2,8 @@ import streamlit as st
 import pickle
 import numpy as np
 
-pipe = pickle.load(open('D:\PYTHON\Machine Learning\Diabetes_Prediction\Real\pipe.pkl','rb'))
-data = pickle.load(open('D:\PYTHON\Machine Learning\Diabetes_Prediction\Real\df.pkl','rb'))
+pipe = pickle.load(open('pipe.pkl','rb'))
+data = pickle.load(open('df.pkl','rb'))
 
 st.title("Diabetes Predictor")
 
